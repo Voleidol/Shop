@@ -1,0 +1,300 @@
+.head #zag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+    .head #head1 img{
+        height: 40px;
+        /* margin-left: -25px; */
+    }
+    .head #head2 input{
+        margin-left: 10px;
+        height: 43px;
+        width: 678px;
+        border: none;
+        background-color: #dedede;
+    }
+    .head #head2 input:active, :hover, :focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+    .head #head2_1 img{
+        width: 52px;
+        height: 39px;
+        margin-left: 10px;
+    }
+    .head #head2_1 button {
+        border: none;
+        background-color: orange;
+    }
+    .head #head3 img {
+        width: 100%;
+        height: 100%;
+    }
+    .head #head3 button {
+        border: none;
+        height: 45px;
+    }
+    .head #head3 #fot1 {
+        margin-top: -2px;
+    }
+    .head #head3 #fot2 {
+        margin-top: -2px;
+    }
+    .head #head3 #fot3 {
+        margin-top: -2px;
+    }
+    .head #head3 #fot4 {
+        margin-top: -2px;
+    }
+.menu {
+    background-color: #029ce4;
+}
+    .menu #menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        
+        padding: 0px;
+    }
+    .menu #menu img{
+        height: 10%;
+        width: 10%;
+    }
+    .menu .menu_act {
+        background-color: black;
+        padding: 20px;
+    }
+    .menu #menu a{
+        font-size: 20px;
+        font-weight: normal;
+        color: white;
+        text-decoration: none;
+        font-stretch: narrower;
+    }
+    .menu #menu a:hover {
+        color: rgb(188, 188, 243);
+    }
+.reklama {
+    margin: 0;
+    padding: 0;
+}
+    .reklama #perehod {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+        height: 300px;
+        align-items: center;
+        background: url(0d45f7aa69ee2ca.png) no-repeat;
+        margin-top: 30px;
+    }
+    .reklama #perehod button{
+        background-color: orange;
+        border: none;
+        
+    }
+.reklama1 {
+    margin: 0;
+    padding: 0;
+}
+    .reklama1 #line1 {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .reklama1 #line1 img {
+        width: 140px;
+        height: 130px;
+        padding-left: 50px;
+    }
+    .reklama1 #activated {
+        padding-left: 0;
+    }
+    .reklama1 #line1 h3 {
+        font-size: 31px;
+    }
+.banner {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 280px;
+}
+    .banner #ban {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .banner #ban img {
+        width: 49%;
+        outline: 1px solid black;
+        margin-left: 10px;
+    }
+    .banner #ban h3 {
+        font-size: 31px;
+    }
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+    .main img {
+        width: 14%;
+        height: 130px;
+        padding-left: 24px;
+    }
+    .main h3 {
+        font-size: 31px;
+    }
+.ter:hover {
+    transition: 1s;
+    transform: scale(1.1);    
+    }
+.ter2:hover {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: rotate(15deg);
+}
+    .main .foto2 img {
+        width: 130px;
+        padding-left: 31px;
+    }
+    .main #chena1 a {
+        padding-left: 130px;
+    }
+    .main #chena1 #no {
+        padding-left: 30px;
+        margin-left: 0;
+    }
+    .main #foto3 img {
+        width: 167px;
+        height: 140px;
+        padding-left: 22px;
+    }
+    .main #chena2 a {
+        padding-left: 160px;
+    }
+    .main #chena2 #no2 {
+        padding-left: 21px;
+        margin-left: 0;
+    }
+    .main #foto4 img {
+        width: 130px;
+        height: 120px;
+        padding-left: 58px;
+    }
+    
+    .main #chena3 a {
+        padding-left: 165px;
+    }
+    .main #chena3 #no3 {
+        /* padding-left: 25px; */
+        margin-left: 0;
+    }
+    .main #predf1 ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .main #predf1 li{
+        list-style-type: none;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .main #predf1 #no4 {
+        margin-left: -80px;
+    }
+    .main #predf1 a {
+        font-size: 22px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: #7f7f7f;
+    }
+    .main #predf1 #active1 {
+        color: black;
+        font-weight: 800;
+        border-bottom: 3px solid orange;
+        padding-bottom: 15px;
+    }
+.main #predf2 #predf3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 15px;
+}
+.main #predf4 button{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footering {
+    background-color: #333;
+    margin-top: 50px;
+}
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .footer li {
+        list-style-type: none;
+    }
+    .footer a {
+        text-decoration: none;
+        color: #a1a1a1;
+    }
+    .footer a:hover {
+        color: white; 
+    }
+    .footer #posled2 li, #posled3 li, #posled4 li, #posled5 li, #posled6 li {
+        padding-top: 10px;
+    }
+    .footer #posled2 .redg, #posled3 .redg, #posled4 .redg, #posled5 .redg, #posled6 .redg {
+        color: white;
+        font-size: 19px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .footer #posled2 ul, #posled3 ul, #posled4 ul, #posled5 ul, #posled6 ul {
+        margin-top: 10px;
+    }
+    .footer #posled1 li{
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .footer #posled7 button {
+        margin-right: 0;
+        margin-top: 170px;
+    }
+    
